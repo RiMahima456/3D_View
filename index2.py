@@ -22,7 +22,7 @@ class Page(QMainWindow):
         # Laod 3D Model
         dino = trimesh.load("12978_tulip_flower_l3.obj") #tried on glb and obj
         if isinstance(dino, trimesh.Scene):
-            dino = dino.dump(concatenate=True)
+            dino = dino.to_geometry()
         faces = np.hstack([np.full((len(dino.faces), 1), 3), dino.faces])
         pvdino = pv.PolyData(dino.vertices, faces)
 
