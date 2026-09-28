@@ -1,7 +1,7 @@
 # 3D_View
 A gesture Controlled 3D viewer without use of mouse or keypad using mediapipe, opencv, and PySide6 and PyQt  
   
-Author: Pragya Agarwal and Rishita Kashnia (Indira Gandhi Delhi Techinal Univesity)  
+Author: Mahima Tiwari (Maharaja Surajmal Institute Of Technology) 
 
 This repository Contains code made for gesture controlled 3D model viewer. It has been coded in python. 
 The techstack used is:  
